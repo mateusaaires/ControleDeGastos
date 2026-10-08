@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    width: 700px;
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: bold;
+    color: #374151;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:first-of-type {
+    background-color: #2563eb;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background-color: #1d4ed8;
+}
+
+#botaoLimpar {
+    margin-left: 8px;
+    background-color: #dc2626;
+    color: white;
+}
+
+#botaoLimpar:hover {
+    background-color: #b91c1c;
+}
+
+ul {
+    list-style: none;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.gasto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    margin-bottom: 10px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.gasto button {
+    background-color: #ef4444;
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+    padding: 7px 12px;
+}
+
+.gasto button:hover {
+    background-color: #dc2626;
+}
+
+#total {
+    background-color: #111827;
+    color: white;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#quantidade {
+    font-weight: bold;
+    color: #4b5563;
+}
+
+#resumo {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#resumo h3 {
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+#categorias {
+    line-height: 2;
+    color: #4b5563;
+}
+
+#maiorGasto {
+    font-weight: bold;
+    color: #2563eb;
+    font-size: 18px;
+}

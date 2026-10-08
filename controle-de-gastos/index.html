@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle financeirro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle financeiro</h1>
+
+    <p>Descrição</p>
+    <input type="text" id="descricao">
+
+    <p>Valor</p>
+    <input type="number" id="valor">
+
+    <p>categoria</p>
+    <select id="categoria">
+        <option value="Alimentação">Alimentação</option>
+        <option value="Transporte">Transporte</option>
+        <option value="Lazer">Lazer</option>
+        <option value="Estudos">Estudos</option>
+        <option value="Outros">Outros</option>
+    </select>
+
+    <button onclick="adcionarGasto()">Adcionar gasto</button>
+
+    <button id="botaoLimpar" onclick="limparGasto()">Limpar gastos</button>
+
+    <ul id="listaDeGastos"></ul>
+
+    <p id="total">Total: R$ 0</p>
+
+    <p id="quantidade">Quantidade de gastos: 0</p>
+
+<div id="resumo">
+    <h3>Gastos por categoria</h3>
+    <div id="categorias"></div>
+
+    <h3>Maior gasto</h3>
+    <p id="maiorGasto"></p>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
